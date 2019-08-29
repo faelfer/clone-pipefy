@@ -2,15 +2,15 @@ import React from 'react';
 
 import { Container, Label } from './styles';
 
-export default function Card() {
+export default function Card({ data }) {
 	return (
 		<Container>
 			<header>
-				<Label color="#7159c1" />
-				</header>
-				<p>do full server migration</p>
-					<img src="https://avatars0.githubusercontent.com/u/52254349?s=460&v=4" alt=""/>
+				{data.labels.map(label => <Label key={label} color={label} />)}
+			</header>
+				<p>{data.content}</p>
+				{ data.user && <img src={data.user} alt=""/> }
 
-			</Container>
+		</Container>
 	);
 }
