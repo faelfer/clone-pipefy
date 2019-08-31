@@ -23,19 +23,19 @@ export default function Card({ data, index }) {
 			if (draggedIndex === targetIndex) {
 				return;
 			}
-
-			const targetSize = ref.current.getBoundingClientReact();
+			
+			const targetSize = ref.current.getBoundingClientRect();
 			const targetCenter = (targetSize.bottom - targetSize.top) / 2;
-
+	  
 			const draggedOffset = monitor.getClientOffset();
 			const draggedTop = draggedOffset.y - targetSize.top;
-
-			if(draggedIndex < targetIndex && draggedTop < targetCenter){
-				return;
+	  
+			if (draggedIndex < targetIndex && draggedTop < targetCenter) {
+			  return;
 			}
-
-			if(draggedIndex > targetIndex && draggedTop > targetCenter){
-				return;
+	  
+			if (draggedIndex > targetIndex && draggedTop > targetCenter) {
+			  return;
 			}		
 
 			console.log('Ok');
