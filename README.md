@@ -1,6 +1,6 @@
 # Clone Pipefy
 
-Recriação da interface do Pipefy com o principal recurso de drag and drop.
+Recreation of Pipefy's interface with the main drag and drop feature.
 
 ## Installation
 
