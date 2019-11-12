@@ -1,0 +1,23 @@
+# Clone Pipefy
+
+Recriação da interface do Pipefy com o principal recurso de drag and drop.
+
+## Installation
+
+Use the package manager [yarn](https://yarnpkg.com/en/) to install the necessary libs and start the project.
+
+```bash
+yarn install
+```
+
+```bash
+yarn start
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
