@@ -8,9 +8,7 @@ Use the package manager [yarn](https://yarnpkg.com/en/) to install the necessary
 
 ```bash
 yarn install
-```
 
-```bash
 yarn start
 ```
 
