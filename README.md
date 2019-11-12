@@ -1,5 +1,7 @@
 # Clone Pipefy
 
+![GitHub issue](https://img.shields.io/github/issues/NYDino/clone-pipefy)
+
 Recreation of Pipefy's interface with the main drag and drop feature.
 
 ## Installation
